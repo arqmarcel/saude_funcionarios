@@ -1403,6 +1403,21 @@ docs = ["ipykernel", "nbconvert", "numpydoc", "pydata_sphinx_theme (==0.10.0rc2)
 stats = ["scipy (>=1.7)", "statsmodels (>=0.12)"]
 
 [[package]]
+name = "sidetable"
+version = "0.9.1"
+description = "sidetable builds simple but useful summary tables of your data"
+optional = false
+python-versions = ">=3.6"
+groups = ["main"]
+files = [
+    {file = "sidetable-0.9.1-py3-none-any.whl", hash = "sha256:13f6076977eb7ca68f054463f90ec2dd7001a8df75b349ccc7bcb0377a75e4bc"},
+    {file = "sidetable-0.9.1.tar.gz", hash = "sha256:363d90e4ec0e83699ad34e4d688806e1156e9ebbe6a1d229ab5d44c8229c8a9d"},
+]
+
+[package.dependencies]
+pandas = ">=1.0"
+
+[[package]]
 name = "six"
 version = "1.17.0"
 description = "Python 2 and 3 compatibility utilities"
@@ -1498,4 +1513,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13"
-content-hash = "801551a800aafbec42a186439bd0182d40b08710d726da7999889ca99dce0ead"
+content-hash = "46cf224a41ff865c256b4a06a817185ee5001e59a0ac51c86c6e3ac67d233059"
